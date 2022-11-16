@@ -1,5 +1,13 @@
 header{
     background-image: url("img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 body header nav{
@@ -12,6 +20,7 @@ body header nav span{
     font-size: 56px;
     line-height: 56px;
     color: #FFFFFF;
+    padding-left: 10%;
 }
 
 body header nav ul{
@@ -33,5 +42,99 @@ body header nav ul li a{
 
 .button{
     display: grid;
+    justify-content: end;
+    padding-right: 17%;
+}
+
+.button li a{
+    border: 1px solid white;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+
+.textbut{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.textbut h1{
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 130px;
+    text-align: right;
+    width: 45%;
+    padding-right: 5%;
+}
+
+.textbut h3{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    width: 15%;
+    padding-right: 5%;
+    margin-top: -2%;
+}
+
+.textbut button{
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 28px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.about-us{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.about-us h1{
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+
+.about-us div.structure {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.about-us div p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-left: 5%;
+}
+
+.about-us div img{
+   padding-left: 5%;
 }
