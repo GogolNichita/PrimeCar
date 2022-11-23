@@ -8,6 +8,7 @@ header{
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 body header nav{
@@ -152,7 +153,7 @@ h3{
     position: absolute;
     top: 2480px;
     left: 1695px;
-  }
+}
 
 .structure{
     display: flex;
@@ -239,4 +240,27 @@ h3{
 
 .blue{
     background: rgba(0, 88, 221, 0.6);
+}
+
+.cars{
+    background-color: black;
+}
+
+.cars h1{
+    margin: 50px 50px 20px;
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+}
+
+.cars p{
+    margin: 20px 50px 2em;
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.cars div.structure2{
+    width: 97%;
 }
