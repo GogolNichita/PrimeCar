@@ -8,7 +8,7 @@ header{
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #161616;
 }
 
 body header nav{
@@ -17,6 +17,7 @@ body header nav{
 }
 
 body header nav span{
+    font-family: 'American Captain';
     font-weight: 400;
     font-size: 56px;
     line-height: 56px;
@@ -29,6 +30,8 @@ body header nav ul{
 }
 
 body header nav ul li a{
+    font-family: 'SF Pro Display';
+    font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
@@ -63,6 +66,10 @@ body header nav ul li a{
 
 h1{
     color: white;
+}
+
+h2{
+
 }
 
 h3{
@@ -104,7 +111,6 @@ h3{
 }
 
 .about-us{
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -139,6 +145,21 @@ h3{
 
 .about-us div img{
    padding-left: 5%;
+}
+
+.about-us h2{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 239px;
+    text-transform: lowercase;
+    color: #373737;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+    top: 1450px;
+    right: 0;
 }
 
 .benefits{
@@ -242,10 +263,6 @@ h3{
     background: rgba(0, 88, 221, 0.6);
 }
 
-.cars{
-    background-color: black;
-}
-
 .cars h1{
     margin: 50px 50px 20px;
     font-family: 'American Captain';
@@ -306,9 +323,87 @@ h3{
     border-radius: 20px;
 }
 
-.star1{
+.star{
     position: absolute;
     top: 3600px;
     left: 0;
     z-index: 0;
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+    padding: 3% 3% 5%;
+}
+
+.contact-us h2{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 245px;
+    line-height: 295px;
+    color: #373737;
+    z-index: -1;
+    position: absolute;
+    left: -30px;
+    top: 4500px;
+    opacity: 0.3;
+}
+
+.contact-us h1{
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    color: #FFFFFF;
+    margin: 70px 0 0px;
+}
+
+.contact-us h3{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.08px;
+    line-height: 50px;
+    width: 60%;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.contact-us div.structure{
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(2,300px);
+}
+
+.contact-us div.structure input[type="text"]{
+    width: 95%;
+    padding: 0 0 5px 0;
+    background-color: #161616;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.contact-us div.structure select{
+    border: none;
+    background: #161616;
+    border-bottom: 1px solid white;
+    padding: 0 0 5px 0;
+    color: white;
+}
+
+.contact-us div.structure input.text{
+    width: 200%;
+}
+
+.contact-us input[type="submit"]{
+    background-color: #161616;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.map img{
+    width: 100%;
 }
