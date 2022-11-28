@@ -2,7 +2,7 @@ header{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 200vh;
 }
 
 body{
@@ -263,4 +263,52 @@ h3{
 
 .cars div.structure2{
     width: 97%;
+}
+
+.amazed{
+    background-color: #1A191A;
+    padding: 3%;
+}
+
+.amazed div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.amazed div h1{
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 130px;
+    color: #FFFFFF;
+    width: 40%;
+    margin: 0px 0px 20px 0px;
+    z-index: 1;
+}
+
+.amazed div h3{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    width: 23%;
+}
+
+.amazed video{
+    width: 1750px;
+    border: none;
+    border-radius: 20px;
+}
+
+.star1{
+    position: absolute;
+    top: 3600px;
+    left: 0;
+    z-index: 0;
 }
