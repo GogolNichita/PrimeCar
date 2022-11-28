@@ -364,7 +364,7 @@ h3{
     font-weight: 400;
     font-size: 30.08px;
     line-height: 50px;
-    width: 60%;
+    width: 57%;
     margin: 0;
     color: #FFFFFF;
 }
@@ -406,4 +406,44 @@ h3{
 
 .map img{
     width: 100%;
+}
+
+footer{
+    padding: 50px 0;
+    display: grid;
+    grid-template-rows:repeat(8,30px) ;
+    grid-template-columns: repeat(5,20%);
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 11px;
+    color: #BDBDBD;
+}
+
+footer div a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer div.logo{
+    font-family: 'American Captain';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+footer div.first-row{
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
