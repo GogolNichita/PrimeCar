@@ -65,31 +65,41 @@ body header nav ul li a{
 }
 
 h1{
-    color: white;
-}
-
-h2{
-
-}
-
-h3{
-    color: white;
-}
-
-.textbut h1{
     font-family: 'American Captain';
     font-style: normal;
     font-weight: 400;
     font-size: 130px;
-    line-height: 130px;
+    color: white;
+}
+
+h2{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.textbut h1{
     text-align: right;
     width: 45%;
     padding-right: 5%;
 }
 
 .textbut h3{
-    font-family: 'SF Pro Display';
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
@@ -117,11 +127,6 @@ h3{
 }
 
 .about-us h1{
-    font-family: 'American Captain';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 130px;
-    line-height: 130px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -134,12 +139,7 @@ h3{
 }
 
 .about-us div p{
-    font-family: 'SF Pro Display';
-    font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
     padding-left: 5%;
 }
 
@@ -148,9 +148,6 @@ h3{
 }
 
 .about-us h2{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
     font-size: 200px;
     line-height: 239px;
     text-transform: lowercase;
@@ -183,20 +180,13 @@ h3{
 }
 
 .structure h1{
-    font-family: 'American Captain';
-    font-style: normal;
-    font-weight: 400;
     font-size: 110px;
-    line-height: 110px;
     text-align: center;
     width: 70%;
     margin-bottom: 10px;
 }
 
 .structure h3{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     margin-top: 0;
@@ -226,22 +216,12 @@ h3{
 }
 
 .card h2{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
-    line-height: 38px;
     text-transform: capitalize;
     color: #FFFFFF;
 }
 
 .card p{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
     padding: 0 20px 0 20px;
 }
 
@@ -265,17 +245,11 @@ h3{
 
 .cars h1{
     margin: 50px 50px 20px;
-    font-family: 'American Captain';
-    font-style: normal;
-    font-weight: 400;
     font-size: 110px;
 }
 
 .cars p{
     margin: 20px 50px 2em;
-    font-family: 'SF Pro Display';
-    font-size: 24px;
-    color: #FFFFFF;
 }
 
 .cars div.structure2{
@@ -296,24 +270,14 @@ h3{
 }
 
 .amazed div h1{
-    font-family: 'American Captain';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 130px;
-    line-height: 130px;
-    color: #FFFFFF;
     width: 40%;
     margin: 0px 0px 20px 0px;
     z-index: 1;
 }
 
 .amazed div h3{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 38px;
-    color: #FFFFFF;
     width: 23%;
 }
 
@@ -337,8 +301,6 @@ h3{
 }
 
 .contact-us h2{
-    font-family: 'SF Pro Display';
-    font-style: normal;
     font-size: 245px;
     line-height: 295px;
     color: #373737;
@@ -350,23 +312,15 @@ h3{
 }
 
 .contact-us h1{
-    font-family: 'American Captain';
-    font-style: normal;
-    font-weight: 400;
     font-size: 120px;
-    color: #FFFFFF;
-    margin: 70px 0 0px;
+    margin: 0;
 }
 
 .contact-us h3{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 400;
     font-size: 30.08px;
     line-height: 50px;
     width: 57%;
     margin: 0;
-    color: #FFFFFF;
 }
 
 .contact-us div.structure{
