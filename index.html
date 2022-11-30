@@ -18,13 +18,13 @@
                 <a href="#">Home</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="#about-us">About</a>
             </li>
             <li>
-                <a href="#">Benefits</a>
+                <a href="#benefits">Benefits</a>
             </li>
             <li>
-                <a href="#">Cars</a>
+                <a href="#cars">Cars</a>
             </li>
         </ul>
         <ul class="button">
@@ -41,6 +41,7 @@
             <button>Discover <img src="img/Vector.svg" alt=""></button>
     </div>
     </header>
+    <a name="about-us"></a>
         <section class="about-us">
             <h1>ABOUT US</h1>
             <div class="structure">
@@ -55,6 +56,7 @@
                 <h2>about us</h2>
             </div>
         </section>
+        <a name="benefits"></a>
         <section class="benefits">
             <img id="circle-line" src="img/Line1.svg" alt="">
             <div class="structure">
@@ -81,6 +83,7 @@
             </div>
                 <img id="circle-line2" src="img/Line2.svg" alt="">
        </section>
+       <a name="cars"></a>
        <section class="cars">
             <h1>The cars that are hot right now</h1>
             <p>Buy yours and be the most stylish in the neighborhood</p>
@@ -98,17 +101,23 @@
                 <img src="img/Car9.png" alt="">
             </div>
        </section>
+       <script>
+        function playVideo(){
+            document.getElementById('main_video').play();
+        }
+       </script>
        <section class="amazed">
             <img class="star" src="img/Star1.svg" alt=""> 
             <div>
                 <h1>Be amazed by the power</h1>
                 <h3>Speed and economy together in one place, use and abuse your car's potential.</h3>
             </div>
-            <video controls poster="img/Bugatti.png">
+            <video onclick="playVideo()" poster="img/Bugatti.png" id="main_video">
                 <source src="video/BUGATTI.mp4" type="video/mp4">
             </video>
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/PkkV1vLHUvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
        </section>
+       <a name="contact-us"></a>
        <section class="contact-us">
             <div>
                 <h2>contact us</h2>
@@ -118,8 +127,8 @@
             <div>
                 <div class="structure">
                     <input type="text" placeholder="Your Name">
-                    <input type="text" placeholder="Your Email">
-                    <input type="text" placeholder="Phone Number">
+                    <input type="email" placeholder="Your Email">
+                    <input type="number" placeholder="Phone Number">
                     <select>
                         <option value="-1">Country</option>
                         <option value="1">Afghanistan</option>
@@ -149,17 +158,17 @@
     <div class="first-row">Call Us</div>
     <div></div>
     <div>Georgia</div>
-    <div><a href="#">About us</a></div>
+    <div><a href="#about-us">About us</a></div>
     <div>contact@primecar.com</div>
     <div>+999-9-999-9999</div>
     <div></div>
     <div>Texas</div>
-    <div><a href="#">Our services</a></div>
+    <div><a href="#benefits">Our services</a></div>
     <div></div>
     <div>+111-11-111-1111</div>
     <div></div>
     <div>California</div>
-    <div><a href="#">Contact us</a></div>
+    <div><a href="#contact-us">Contact us</a></div>
     <div></div>
     <div></div>
     <div></div>

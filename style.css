@@ -317,7 +317,7 @@ p{
 }
 
 .contact-us h3{
-    font-size: 30.08px;
+    font-size: 30px;
     line-height: 50px;
     width: 57%;
     margin: 0;
@@ -329,13 +329,17 @@ p{
     grid-template-columns: repeat(2,300px);
 }
 
-.contact-us div.structure input[type="text"]{
+.contact-us div.structure input{
     width: 95%;
     padding: 0 0 5px 0;
     background-color: #161616;
     color: white;
     border: none;
     border-bottom: 1px solid white;
+}
+
+.contact-us div.structure input::placeholder{
+    color: white;
 }
 
 .contact-us div.structure select{
@@ -366,7 +370,7 @@ footer{
     padding: 50px 0;
     display: grid;
     grid-template-rows:repeat(8,30px) ;
-    grid-template-columns: repeat(5,20%);
+    grid-template-columns: repeat(5,15%);
     align-items: center;
     justify-content: center;
 }
@@ -390,6 +394,8 @@ footer div.logo{
     font-size: 100px;
     line-height: 100px;
     color: #FFFFFF;
+    width: 130%;
+    margin-left: -100px;
 }
 
 footer div.first-row{
