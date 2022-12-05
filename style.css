@@ -6,8 +6,8 @@ header{
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0; 
     background-color: #161616;
 }
 
@@ -62,6 +62,11 @@ body header nav ul li a{
     align-items: flex-end;
     padding: 0px;
     color: white;
+}
+
+.textbut button a {
+    color: white;
+    text-decoration: none;
 }
 
 h1{
@@ -145,6 +150,7 @@ p{
 
 .about-us div img{
    padding-left: 5%;
+   width: 95%;
 }
 
 .about-us h2{
@@ -169,7 +175,7 @@ p{
 
 .benefits img#circle-line2{
     position: absolute;
-    top: 2480px;
+    top: 2520px;
     left: 1695px;
 }
 
@@ -282,7 +288,7 @@ p{
 }
 
 .amazed video{
-    width: 1750px;
+    width: 100%;
     border: none;
     border-radius: 20px;
 }
@@ -362,7 +368,7 @@ p{
     padding: 5px 30px;
 }
 
-.map img{
+.map iframe{
     width: 100%;
 }
 
